@@ -1,0 +1,49 @@
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+.about, .references, .contact {
+  min-height: 600px;
+}
+
+.ref-1,.ref-2,.ref-3,.ref-4 {
+  min-height: 31em;
+  margin: 1em auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ref-1 {
+  background-image: url(../img/enn.png);
+}
+
+.ref-2 {
+  background-image: url(../img/pet.png);
+}
+
+.ref-3 {
+  background-image: url(../img/rest.png);
+}
+
+.ref-4 {
+  background-image: url(../img/old.jpg);
+}
+
+.ref-inner {
+  min-height: inherit;
+  background-color: rgba(0, 0, 0, .6);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.ref-inner:hover {
+  background-color: rgba(0, 0, 0, .0);
+  transition: 1s;
+}
