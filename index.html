@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Josh's Portfolio</title>
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
   <!-- !NAV! -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top portfolio-nav">
       <div class="container-fluid">
         <!-- !MOBILE-NAV! -->
         <div class="navbar-header">
@@ -21,52 +21,109 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+          <h3>Joshua.K.Gonzalez Portfolio</h3>
         </div>
         <!-- ^MOBILE-NAV^ -->
         <!-- !DESKTOP-NAV! -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav nav-pills navbar-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">Profile</a></li>
-            <li role="presentation"><a href="#">Messages</a></li>
+          <ul class="nav navbar-nav nav-pills navbar-right nav-ul">
+            <li role="presentation"><a href="#about">About</a></li>
+            <li role="presentation"><a href="#references">References</a></li>
+            <li role="presentation"><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <!-- ^DESKTOP-NAV^ -->
       </div>
     </nav>
   <!-- ^NAV^ -->
-  <!-- !WELLCOME! -->
-  <!-- ^WELLCOME^ -->
   <!-- !ABOUT! -->
     <section class="container-fluid about" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-xs-12">
-            <img src="img/emperor.jpg" alt="">
-            <h2>Joshua K. Gonzalez</h2>
+      <div class="row">
+        <div class="col-xs-12 about-header text-uppercase text-center">
+          <h1>about</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <div class="about-col-left">
+            <div class="row">
+              <div class="col-xs-12">
+                  <img class="img-responsive center-block" src="img/self-img.jpg" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <h2>Joshua. C. Gonzalez</h2>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.minds.com/" target="_blank"><i class="fas fa-lightbulb"></i></a>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6 col-xs-12 text-center">
-            <h1>My Story</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis laboriosam possimus tempora hic laudantium eum dicta, et doloribus suscipit quo eaque fuga repellat quasi commodi minus fugit aut dolores perferendis. ipsum dolor sit amet, consectetur adipisicing elit. Iste, quibusdam illo magni, dicta qui, aliquam incidunt fuga error exercitationem veritatis, quae corporis harum vel ipsum tempora. Quos, sed dolorem iste. ipsum dolor sit amet, consectetur adipisicing elit. Ea debitis natus inventore nam. Facere vitae, tenetur ea quam illum aspernatur temporibus sed sit illo nihil, adipisci, libero ratione quidem! Minima. ipsum dolor sit amet, consectetur adipisicing elit. Officia unde ullam alias nesciunt laboriosam quisquam aut, harum consequuntur explicabo dolores doloremque sunt error, dolor perspiciatis, praesentium enim nostrum voluptates temporibus! ipsum dolor sit amet, consectetur adipisicing elit. In quia atque sapiente architecto, nisi explicabo, voluptatem quas similique nulla exercitationem. Odit maiores, nam aut incidunt fuga maxime odio sed earum!
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis laboriosam possimus tempora hic laudantium eum dicta, et doloribus suscipit quo eaque fuga repellat quasi commodi minus fugit aut dolores perferendis. ipsum dolor sit amet, consectetur adipisicing elit. Iste, quibusdam illo magni, dicta qui, aliquam incidunt fuga error exercitationem veritatis, quae corporis harum vel ipsum tempora. Quos, sed dolorem iste. ipsum dolor sit amet, consectetur adipisicing elit. Ea debitis natus inventore nam. Facere vitae, tenetur ea quam illum aspernatur temporibus sed sit illo nihil, adipisci, libero ratione quidem! Minima. ipsum dolor sit amet, consectetur adipisicing elit. Officia unde ullam alias nesciunt laboriosam quisquam aut, harum consequuntur explicabo dolores doloremque sunt error, dolor perspiciatis, praesentium enim nostrum voluptates temporibus! ipsum dolor sit amet, consectetur adipisicing elit. In quia atque sapiente architecto, nisi explicabo, voluptatem quas similique nulla exercitationem. Odit maiores, nam aut incidunt fuga maxime odio sed earum!
-            </p>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div class="about-col-right">
+            <div>
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs nav-justified" role="tablist">
+                <li role="presentation" class="active"><a href="#story" aria-controls="story" role="tab" data-toggle="tab">Story</a></li>
+                <li role="presentation"><a href="#likes-dislikes" aria-controls="likes-dislikes" role="tab" data-toggle="tab">Likes/Dislikes</a></li>
+                <li role="presentation"><a href="#Pro-Cons" aria-controls="Pros-Cons" role="tab" data-toggle="tab">Pros/Cons</a></li>
+              </ul>
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active text-center" id="story">  <!-- !MY STORY TAB PANE! -->
+                  <h1>My Story</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis laboriosam possimus tempora hic laudantium eum dicta, et doloribus suscipit quo eaque fuga repellat quasi commodi minus fugit aut dolores perferendis. ipsum dolor sit amet, consectetur adipisicing elit. Iste, quibusdam illo magni, dicta qui, aliquam incidunt fuga error exercitationem veritatis, quae corporis harum vel ipsum tempora. Quos, sed dolorem iste. ipsum dolor sit amet, consectetur adipisicing elit.   Ea debitis natus inventore nam. Facere vitae, tenetur ea quam illum aspernatur temporibus sed sit illo nihil, adipisci, libero ratione quidem! Minima. ipsum dolor sit amet, consectetur adipisicing elit. Officia unde ullam alias nesciunt laboriosam quisquam aut, harum consequuntur explicabo dolores doloremque sunt error, dolor perspiciatis, praesentium enim nostrum voluptates temporibus! ipsum dolor sit amet, consectetur adipisicing elit. In quia atque sapiente architecto, nisi explicabo, voluptatem quas similique nulla exercitationem. Odit maiores, nam aut incidunt fuga maxime odio sed earum!
+                  </p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis laboriosam possimus tempora hic laudantium eum dicta, et doloribus suscipit quo eaque fuga repellat quasi commodi minus fugit aut dolores perferendis. ipsum dolor sit amet, consectetur adipisicing elit. Iste, quibusdam illo magni, dicta qui, aliquam incidunt fuga error exercitationem veritatis, quae corporis harum vel ipsum tempora. Quos, sed dolorem iste. ipsum dolor sit amet, consectetur adipisicing elit. Ea debitis natus inventore nam. Facere vitae, tenetur ea quam illum aspernatur temporibus sed sit illo nihil, adipisci, libero ratione quidem! Minima. ipsum dolor sit amet, consectetur adipisicing elit. Officia unde ullam alias nesciunt laboriosam quisquam aut, harum consequuntur explicabo dolores doloremque sunt error, dolor perspiciatis, praesentium enim nostrum voluptates temporibus! ipsum dolor sit amet, consectetur adipisicing elit. In quia atque sapiente architecto, nisi explicabo, voluptatem quas similique nulla exercitationem. Odit maiores, nam aut incidunt fuga maxime odio sed earum!
+                  </p>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="likes-dislikes"> <!-- !LIKES AND DISLIKES TAB PANE! -->
+                  <div class="about-tab-likes container">
+                    <h1>Likes</h1>
+                    <h3>one</h3>
+                    <h3>two</h3>
+                    <h3>three</h3>
+                    <h3>four</h3>
+                    <h1>Dislikes</h1>
+                    <h3>one</h3>
+                    <h3>two</h3>
+                    <h3>three</h3>
+                    <h3>four</h3>
+                  </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="Pro-Cons"> <!-- !PROS AND CONS TAB PANE! -->
+                  <div class="about-tab-pros container">
+                    <h1>Pros</h1>
+                    <h3>one</h3>
+                    <h3>two</h3>
+                    <h3>three</h3>
+                    <h3>four</h3>
+                    <h1>Cons</h1>
+                    <h3>one</h3>
+                    <h3>two</h3>
+                    <h3>three</h3>
+                    <h3>four</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
   <!-- ^ABOUT^ -->
   <!-- !REFERENCES! -->
-    <section class="container-fluid references text-uppercase" id="references">
+    <section class="container-fluid references" id="references">
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-12 ref-header text-uppercase text-center">
           <h1>references</h1>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6 col-xs-12">
-          <a href="">
+      <div class="row text-uppercase">
+        <div class="col-md-3 col-xs-6">
+          <a href="https://joshua43k.github.io/ENN/" target="_blank"> <!-- !ENN SITE! -->
             <div class="ref-1">
               <div class="ref-inner">
                 <h1>enn</h1>
@@ -74,8 +131,8 @@
             </div>
           </a>
         </div>
-        <div class="col-md-6 col-xs-12">
-          <a href="">
+        <div class="col-md-3 col-xs-6">
+          <a href="https://joshua43k.github.io/pet-store/" target="_blank"> <!-- !PET STORE SITE! -->
             <div class="ref-2">
               <div class="ref-inner">
                 <h1>pet</h1>
@@ -83,10 +140,8 @@
             </div>
           </a>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-xs-12">
-          <a href="">
+        <div class="col-md-3 col-xs-6">
+          <a href="https://joshua43k.github.io/bc2-restaurante/" target="_blank"> <!-- !RESTAURANTE SITE! -->
             <div class="ref-3">
               <div class="ref-inner">
                 <h1>rest</h1>
@@ -94,8 +149,8 @@
             </div>
           </a>
         </div>
-        <div class="col-md-6 col-xs-12">
-          <a href="#">
+        <div class="col-md-3 col-xs-6">
+          <a href="https://joshua43k.github.io/joshua34k-final-project/" target="_blank"> <!-- !OLD PORTFOLIO SITE! -->
             <div class="ref-4">
               <div class="ref-inner">
                 <h1>old</h1>
@@ -108,15 +163,19 @@
   <!-- ^REFERENCES^ -->
   <!-- !CONTACT! -->
     <section class="container-fluid contact" id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h1>Contact</h1>
-          </div>
+      <div class="row">
+        <div class="col-xs-12 contact-header text-uppercase text-center">
+          <h1>Contact</h1>
         </div>
+      </div>
+      <div class="container">
         <div class="row">
           <div class="col-md-6 col-xs-12">
             <form>
+              <div class="form-group">
+                <label for="exampleInputName">Name</label>
+                <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+              </div>
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
@@ -135,15 +194,31 @@
           </div>
           <div class="col-md-6 col-xs-12">
             <div class="row">
-              <div class="col-xs-12">
-
+              <div class="col-xs-12 text-center">
+                <div class="contact-info">
+                  <h1>Contact info</h1>
+                  <h4>josh43k@gmail.com</h4>
+                  <h4>(555) 555-5555.</h4>
+                </div>
               </div>
             </div>
             <div class="row">
-              <div class="col-xs-12 text-center">
-                <h3>Contact info</h3>
-                <h4>Lorem ipsum.</h4>
-                <h5>Lorem ipsum.</h5>
+              <div class="col-xs-12">
+                <div class="row">
+                  <div class="col-xs-12 text-center">
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 text-center">
+                      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 text-center">
+                    <a href="https://www.minds.com/" target="_blank"><i class="fas fa-lightbulb"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
