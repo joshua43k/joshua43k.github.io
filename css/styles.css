@@ -85,6 +85,10 @@ a:hover {
   font-size: 5em;
 }
 
+.inner-welcome h2 {
+  margin-top: .5em;
+}
+
 .gone-welcome {
   display: none
 }
