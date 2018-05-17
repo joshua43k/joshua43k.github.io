@@ -85,9 +85,6 @@ a:hover {
   font-size: 5em;
 }
 
-.inner-welcome h2 {
-  margin-top: .5em;
-}
 
 .gone-welcome {
   display: none
@@ -98,7 +95,7 @@ a:hover {
     min-height: 200px;
   }
   .inner-welcome h1 {
-    min-height: 2.5em;
+    font-size: 1.8em;
   }
   .outter-welcome  {
     margin-top: 4.5em;
@@ -108,6 +105,9 @@ a:hover {
 @media only screen and (max-width: 768px) {
   .inner-welcome {
     min-height: 200px;
+  }
+  .inner-welcome h1 {
+    font-size: 1.8em;
   }
 }
 
