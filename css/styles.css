@@ -97,6 +97,9 @@ a:hover {
   .inner-welcome {
     min-height: 200px;
   }
+  .inner-welcome h1 {
+    min-height: 2.5em;
+  }
   .outter-welcome  {
     margin-top: 4.5em;
   }
