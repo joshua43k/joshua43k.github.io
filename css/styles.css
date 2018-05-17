@@ -56,6 +56,9 @@ a:hover {
   .navbar-default .navbar-nav > li > a  {
     margin: 0 auto;
   }
+  .mobile-fix {
+    margin-top: 1em;
+  }
 }
 
 /* ^NAV^ */
@@ -63,7 +66,7 @@ a:hover {
 .outter-wellcome  {
   min-height: 1000px;
   background-color: rgba(0,0,0,.8);
-  margin-top: 3.5em;
+  margin-top: 4.5em;
 }
 
 .inner-wellcome {
