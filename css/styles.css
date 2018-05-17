@@ -85,6 +85,19 @@ a:hover {
 .gone-wellcome {
   display: none
 }
+
+@media only screen and (max-width: 600px) {
+  .inner-wellcome {
+    min-height: 200px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .inner-wellcome {
+    min-height: 200px;
+  }
+}
+
 /* ^WELLCOME^ */
 /* !ABOUT! */
 .about {
