@@ -17,3 +17,8 @@ function goneFunction() {
     var element = document.getElementById("wellcome");
     element.classList.toggle("gone-wellcome");
 }
+
+
+function hiBeth() {
+  alert("Thank you for submitting a message but do to me living on the moon i will not be receiving it for several days")
+}
