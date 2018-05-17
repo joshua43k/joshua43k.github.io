@@ -13,3 +13,7 @@ $(function() {
                    }
            });
        });
+function goneFunction() {
+    var element = document.getElementById("wellcome");
+    element.classList.toggle("gone-wellcome");
+}
