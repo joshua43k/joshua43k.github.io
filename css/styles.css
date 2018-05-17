@@ -63,13 +63,13 @@ a:hover {
 
 /* ^NAV^ */
 /* !WELLCOME! */
-.outter-wellcome  {
+.outter-welcome  {
   min-height: 1000px;
   background-color: rgba(0,0,0,.8);
   margin-top: 3.5em;
 }
 
-.inner-wellcome {
+.inner-welcome {
   min-height: 400px;
   color: #fff;
   font-family: 'Oswald', sans-serif;
@@ -81,25 +81,25 @@ a:hover {
   transition: 1s;
 }
 
-.inner-wellcome h1 {
+.inner-welcome h1 {
   font-size: 5em;
 }
 
-.gone-wellcome {
+.gone-welcome {
   display: none
 }
 
 @media only screen and (max-width: 600px) {
-  .inner-wellcome {
+  .inner-welcome {
     min-height: 200px;
   }
-  .outter-wellcome  {
+  .outter-welcome  {
     margin-top: 4.5em;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .inner-wellcome {
+  .inner-welcome {
     min-height: 200px;
   }
 }
